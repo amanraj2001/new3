@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .head {
+            background-color: antiquewhite;
+
+        }
+
+        .head ul {
+            display: flex;
+        }
+
+        .head ul li {
+            margin: 0px 19%;
+            padding: 10px;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .navbar ul li {
+            list-style: none;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        section{
+            background-color: beige;
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+        }
+
+        .row {
+            margin: auto;
+            width: 30%;
+            font-size: 23px;
+        }
+
+        form {
+            margin: auto;
+            width: 30%;
+
+        }
+
+        fieldset {
+            border: 0;
+            width: 100%;
+        }
+
+        .one,
+        .two {
+            margin: 12px;
+            padding: 5px;
+        }
+        input{
+            border-radius: 4px;
+            margin: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <ul>
+                <li>Shopping Cart</li>
+                <li>Sign-In / Register</li>
+            </ul>
+        </div>
+    </header>
+    <div class="logo">
+        <img src="./files1676030625964-logo.png" alt="" srcset="">
+        <div class="num">
+            <p style="font-size: 35px; padding-top: 15px;">512-219-8000</p>
+        </div>
+    </div>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Yards Signs</a></li>
+                <li><a href="#">Banners</a></li>
+                <li><a href="#">Accesories</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Materials</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li style="border:2px solid red; background-color: orange;"><a style="color:white;" href="#">Custom
+                        Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="container">
+            <div class="box">
+                <div class="row">
+                    <h3>Big Headline</h3>
+                    <h4>Smaller Subhead Ahead</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque hic sint laborum soluta
+                        distinctio eos vero, vel atque natus rerum earum. Facere corporis explicabo alias tempore
+                        inventore ut, numquam accusamus.</p>
+                </div>
+                <form>
+                    <fieldset>
+                        <div class="one">
+                            <input type="text" name="Fname" placeholder="First Name:">
+                            <input type="text" name="Lname" placeholder="Last Name:">
+                        </div>
+                        <div class="two">
+                            <input type="email" name="Email" placeholder="Email:">
+                            <input type="number" name="Number" placeholder="Mobile Number">
+                        </div>
+                        <textarea style="margin-left:30px;" cols="48" rows="5">Message </textarea>
+                        <input style="width: 25%;margin-left: 150px;" type="button" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

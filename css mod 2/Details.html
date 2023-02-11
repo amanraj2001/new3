@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        section{
+            display: flex;
+        }
+        aside{
+
+            width:25% ;
+        }
+        .side{
+            border: 2px solid red;
+        }
+        .side p{
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            background-color: black;
+
+        }
+        article{
+            width: 100%;
+            border: 2px solid black;
+        }
+        .container{
+            width: 80%;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+        .container h4{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        .box{
+            /* border: 2px solid red; */
+            width: 100%;
+            margin: 0;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .one{
+            width: 26%;
+        }
+
+
+        /* media query */
+        @media (max-width:426px){
+            section{
+                display: block;
+            }
+            aside{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <aside>
+            <div class="side">
+                <p>Public</p>
+                <ul>
+                    <li>Link 1</li>
+                    <li>Link 2</li>
+                </ul>
+                <p>View</p>
+                <ul>
+                    <li>Link 1</li>
+                    <li>Link 2</li>
+                    <li>Link 3</li>
+                    <li>Link 4</li>
+                    <li>Link 5</li>
+                </ul>
+                <p>HR</p>
+                <ul>
+                    <li>Address Details</li>
+                    <li>Family Details</li>
+                </ul>
+                <p>Network Details</p>
+                <ul>
+                    <li>Vehicle Details</li>
+                    <li>Machine Details</li>
+                </ul>
+            </div>
+        </aside>
+        <article>
+            <div class="container">
+                <div class="box">
+                    <h4>Details</h4>
+                    <div class="row">
+                        <div class="one">
+                            <p>Name:abc</p>
+                            <p>Value:def</p>
+                            <p>Extra:xyz</p>
+                        </div>
+                        <div class="one">
+                            <p>Name:abc</p>
+                            <p>Value:def</p>
+                            <p>Extra:xyz</p>
+                        </div>
+                        <div class="one">
+                            <p>Name:abc</p>
+                            <p>Value:def</p>
+                            <p>Extra:xyz</p>
+                        </div>
+                        <div class="one">
+                            <p>Name:abc</p>
+                            <p>Value:def</p>
+                            <p>Extra:xyz</p>
+                        </div>
+                        <div class="one">
+                            <p>Name:abc</p>
+                            <p>Value:def</p>
+                            <p>Extra:xyz</p>
+                        </div>
+                        <div class="one">
+                            <p>Name:abc</p>
+                            <p>Value:def</p>
+                            <p>Extra:xyz</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

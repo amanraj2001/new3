@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+        section{
+            height: auto;
+            background-color: black;
+        }
+        .navbar ul{
+            display: flex;
+        }
+        .navbar li{
+            list-style: none;
+            
+        }
+        .navbar li a{
+           padding: 12px ;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+
+
+        /* media query */
+        @media (max-width:600px){
+            .navbar ul{
+                
+                display:inline-block;
+                text-align: center;
+                height: auto;
+                width: 100%;
+                margin: 12px;
+            }
+            nav li {
+                margin: 10px;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <section>
+
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+</body>
+</html>
